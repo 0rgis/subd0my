@@ -1,7 +1,6 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-import requests
 print("\033[1;30;40m           _         _  ___                  ")
 print("\033[1;30;40m ___ _   _| |__   __| |/ _ \ _ __ ___  _   _ ")
 print("\033[1;30;40m/ __| | | | '_ \ / _` | | | | '_ ` _ \| | | |")
@@ -11,11 +10,13 @@ print("\033[1;30;40m                                        |___/")
 print("")
 print("")
 
-#the domain to scan for subdomains
-domain = input ("\033[1;34;40mDomain Name :\033[1;37;40m ")
+import requests
+
+#the domain to scan
+domain = input ("\033[1;34;40mDomain Name : \033[1;37;40m ")
 # read all subdomains (from subdomain list, place in same folder)
-list = input("\033[1;34;40mFull Path To Wordlist :\033[1;37;40m ")
-filename = input ("\033[1;34;40mOutput Filename? :\033[1;37;40m")
+list = input("\033[1;34;40mFull Path To Wordlist Unless It's in Working Directory : \033[1;37;40m ")
+filename = input ("\033[1;34;40mResults Filename? : \033[1;37;40m")
 print ("")
 file = open(list)#path to file
 # read all content
@@ -37,7 +38,7 @@ for subdomain in subdomains:
         print("\033[1;32;40m[+] Discovered subdomain: \n", url)
         # create a new text file#
         text_file = open(filename, "a")
-        # write to this file some text#
+        # write to the file
         text_file.write(url+"\n")
 
 print ("")
