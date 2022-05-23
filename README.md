@@ -10,7 +10,7 @@ Any suggestions very welcome.
 #### Dependencies
 You will need python3 & requests module installed to use.
 
-`sudo apt updtae && sudo apt install python3-pip`
+`sudo apt update && sudo apt install python3-pip`
 
 `pip3 install requests`
 
