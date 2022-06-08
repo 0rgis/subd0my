@@ -17,7 +17,7 @@ banner = """
     |___/\__,_|_.__/ \__,_|\___/|_| |_| |_|\__, |
                                             |___/
 """
-print(Fore.GREEN + banner)
+print(Fore.GREEN + banner+"\n")
 print("")
 
 
