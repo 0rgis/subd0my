@@ -4,7 +4,7 @@ Simple python script to scan for sub domains.
 
 I have now included a smallish wordlist to get you started, from here https://github.com/theMiddleBlue/DNSenum/tree/master/wordlist
 
-Any suggestions are very welcome.
+Any suggestions are more than welcome.
 
 
 # Installation:
