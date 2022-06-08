@@ -4,30 +4,57 @@ Simple python script to scan for sub domains.
 
 I have now included a smallish wordlist to get you started, from here https://github.com/theMiddleBlue/DNSenum/tree/master/wordlist
 
-Any suggestions very welcome.
+Any suggestions are very welcome.
 
-# Installation
-#### Dependencies
-You will need python3 & requests module installed to use.
 
-`sudo apt update && sudo apt install python3-pip`
+# Installation:
+You will need python3 installed & follow the instructions to install the dependencies
 
-`pip3 install requests`
+- Update and install pip3:
+```
+sudo apt update && sudo apt install python3-pip
+```
 
-`git clone https://github.com/0rgis/subd0my.git`
+- Install the required dependencies:
+```
+pip3 install -r requirements.txt
+```
 
-`cd subd0my && python3 subd0my.py`
+- Clone the repository:
+```
+git clone https://github.com/0rgis/subd0my.git
+```
 
-#### Usage
+- Run the tool:
+```
+python3 subd0my.py
+```
 
-Just follow the on screen prompts & path to wordlist including the .extension if any.
-If you have a word list in the same directory as the script then just pass the full name.
-Give it time to run your list, output file can have an extension thats upto you & it outputs the results as list.
 
-*If running in windows please use absolute path to word list even if
-it is the same directory as the script.*
+# Usage:
 
-# CREDITS
+Form          | Description   
+------------- | -------------
+-h            | Help command to list all forms and usages
+-d            | Domain name to scan for subdomains
+-w            | Wordlist of subdomains
+-o            | Filename of the output file
+
+
+# Examples: 
+
+- Help (-h):
+```
+python3 subd0my.py -h
+```
+
+- Basic usage(-d, -w, -o):
+```
+python3 subd0my.py -d google.com -w wordlist.txt -o output.txt
+```
+
+
+# Credits:
 https://github.com/OffXec for the file output help.
 
 https://github.com/theMiddleBlue for the wordlists.
