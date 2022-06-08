@@ -15,14 +15,14 @@ You will need python3 installed & follow the instructions to install the depende
 sudo apt update && sudo apt install python3-pip
 ```
 
-- Install the required dependencies:
-```shell
-pip3 install -r requirements.txt
-```
-
 - Clone the repository:
 ```
 git clone https://github.com/0rgis/subd0my.git
+```
+
+- Install the required dependencies:
+```shell
+pip3 install -r requirements.txt
 ```
 
 - Run the tool:
