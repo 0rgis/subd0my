@@ -11,7 +11,7 @@ Any suggestions are more than welcome.
 You will need python3 installed & follow the instructions to install the dependencies
 
 - Update and install pip3:
-```
+```shell
 sudo apt update && sudo apt install python3-pip
 ```
 
