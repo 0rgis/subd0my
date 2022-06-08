@@ -16,7 +16,7 @@ sudo apt update && sudo apt install python3-pip
 ```
 
 - Install the required dependencies:
-```
+```shell
 pip3 install -r requirements.txt
 ```
 
