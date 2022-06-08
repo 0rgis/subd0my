@@ -18,12 +18,9 @@ banner = """
                                             |___/
 """
 print(Fore.GREEN + banner+"\n")
-print("")
-
 
 def main():
-    print("")
-
+  
     # Parser to parse the arguemnts from the command line
     parser = argparse.ArgumentParser(
         epilog="\tExample: \r\npython3 "
@@ -33,16 +30,14 @@ def main():
 
     # Arguments
     parser.add_argument(
-        "-d",
-        dest="domain",
-        help="Domain name to scan for subdomains",
+        "-d", dest="domain", help="Domain name to scan for subdomains",
         required=True,
     )
     parser.add_argument(
         "-w", dest="wordlist", help="Wordlist of subdomains", required=True
     )
     parser.add_argument(
-        "-o ", dest="output", help="Filename for the output file", required=True
+        "-o", dest="output", help="Filename for the output file", required=True
     )
     args = parser.parse_args()
 
