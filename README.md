@@ -33,7 +33,7 @@ python3 subd0my.py
 
 # Usage:
 ```
-   subd0my.py [-h] -d "domain" -w "wordlist" [-o output file]
+python3 subd0my.py [-h] -d "domain" -w "wordlist" [-o output file]
 ```
 
 
