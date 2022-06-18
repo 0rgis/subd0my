@@ -11,7 +11,7 @@ Any suggestions are more than welcome.
 You will need python3 installed & follow the instructions to install the dependencies
 
 - Update and install pip3:
-```shell
+```
 sudo apt update && sudo apt install python3-pip
 ```
 
@@ -21,7 +21,7 @@ git clone https://github.com/0rgis/subd0my.git
 ```
 
 - Install the required dependencies:
-```shell
+```
 pip3 install -r requirements.txt
 ```
 
@@ -32,6 +32,10 @@ python3 subd0my.py
 
 
 # Usage:
+```
+   subd0my.py [-h] -d "domain" -w "wordlist" [-o output file]
+```
+
 
 Form          | Description   
 ------------- | -------------
