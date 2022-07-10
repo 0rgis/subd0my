@@ -27,7 +27,7 @@ pip3 install -r requirements.txt
 
 - Run the tool:
 ```
-python3 subd0my.py
+python3 subd0my.py -h
 ```
 
 
